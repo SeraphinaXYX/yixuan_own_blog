@@ -3,7 +3,7 @@
 谢奕轩（Yixuan Xie）的个人网站与博客，使用 Astro 构建，部署在 Vercel。
 
 - **线上地址：** https://yixuan-own-blog.vercel.app
-- **GitHub：** https://github.com/yixuan1112-coder/yixuan_own_blog
+- **GitHub：** https://github.com/SeraphinaXYX/yixuan_own_blog
 
 ## 项目结构
 

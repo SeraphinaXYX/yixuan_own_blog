@@ -1,7 +1,7 @@
 # Yixuan's website — 后台与评论配置说明
 
 本站：**https://yixuan-own-blog.vercel.app**  
-仓库：**yixuan1112-coder/yixuan_own_blog**  
+仓库：**SeraphinaXYX/yixuan_own_blog**  
 作者：**Yixuan Xie（谢奕轩）**
 
 本站包含：
@@ -14,7 +14,7 @@
 
 ## 1. Giscus 评论
 
-1. 打开 GitHub 仓库：`yixuan1112-coder/yixuan_own_blog`
+1. 打开 GitHub 仓库：`SeraphinaXYX/yixuan_own_blog`
 2. **Settings → General → Features** → 开启 **Discussions**
 3. 打开 [https://giscus.app](https://giscus.app)
 4. 填写仓库名，语言选 **中文** 或 **English**，分类选 **General**
@@ -51,7 +51,7 @@
 ### 使用后台
 
 1. 打开 `https://yixuan-own-blog.vercel.app/admin/`
-2. 点击 **Login with GitHub**（使用有仓库写入权限的账号：`yixuan1112-coder`）
+2. 点击 **Login with GitHub**（使用有仓库写入权限的账号：`SeraphinaXYX`）
 3. 新建或编辑博客文章
 4. 点击 **Publish** → 自动提交到 GitHub → Vercel 自动更新网站
 
@@ -106,7 +106,7 @@ git push origin main
 ## 联系方式（网站内容参考）
 
 - 邮箱：yixuan071112@outlook.com
-- GitHub：https://github.com/yixuan1112-coder
+- GitHub：https://github.com/SeraphinaXYX
 - LinkedIn：https://www.linkedin.com/in/yixuan-xie-b50932382
 - Instagram：@xuan291547
 - 项目：[Dream Journey](https://yixuan-your-dream-journey.netlify.app/) · [Canva 介绍](https://yixuanxie.my.canva.site/)

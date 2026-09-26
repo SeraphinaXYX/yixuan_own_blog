@@ -7,7 +7,7 @@ export const SITE_DESCRIPTION =
 
 /** Giscus 评论 — 在 .env 或 Vercel 中配置，详见 ADMIN_SETUP.md */
 export const GISCUS = {
-	repo: 'yixuan1112-coder/yixuan_own_blog',
+	repo: 'SeraphinaXYX/yixuan_own_blog',
 	repoId: import.meta.env.PUBLIC_GISCUS_REPO_ID ?? '',
 	category: 'General',
 	categoryId: import.meta.env.PUBLIC_GISCUS_CATEGORY_ID ?? '',

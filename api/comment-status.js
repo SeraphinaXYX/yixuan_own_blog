@@ -1,6 +1,6 @@
 import { getSession } from './_comment-session.js';
 
-const REPOSITORY_OWNER = 'yixuan1112-coder';
+const REPOSITORY_OWNER = 'SeraphinaXYX';
 const REPOSITORY_NAME = 'yixuan_own_blog';
 
 export default async function handler(req, res) {

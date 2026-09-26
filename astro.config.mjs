@@ -40,7 +40,7 @@ function rehypeBaseLinks() {
 // https://astro.build/config
 export default defineConfig({
 	site: isGitHubPages
-		? 'https://yixuan1112-coder.github.io/yixuan_own_blog/'
+		? 'https://seraphinaxyx.github.io/yixuan_own_blog/'
 		: 'https://yixuan-own-blog.vercel.app/',
 	base: isGitHubPages ? '/yixuan_own_blog/' : '/',
 	integrations: [mdx(), sitemap()],
