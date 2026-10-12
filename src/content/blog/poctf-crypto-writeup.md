@@ -1,7 +1,7 @@
 ---
 title: poctf-crypto-writeup
 description: 总结
-type: knowledge
+type: ctf
 pubDate: Oct 02 2026
 updatedDate: Oct 02 2026
 ---

@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../../components/BaseHead.astro';
+import BlogNav from '../../../components/BlogNav.astro';
+import Footer from '../../../components/Footer.astro';
+import FormattedDate from '../../../components/FormattedDate.astro';
+import Header from '../../../components/Header.astro';
+import { SITE_TITLE } from '../../../consts';
+import { url } from '../../../lib/url';
+
+const posts = (await getCollection('blog'))
+	.filter((post) => post.data.type === 'ctf')
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<!doctype html>
+<html lang="en">
+	<head><BaseHead title={`CTF Writeup - ${SITE_TITLE}`} description="CTF writeups from the blog." /></head>
+	<body>
+		<div class="site-frame">
+			<Header />
+			<main class="page-main"><div class="content-page">
+				<BlogNav />
+				<header class="page-heading"><h1 class="pixel-title page-title">CTF Writeup</h1><p>Posts marked as CTF writeups.</p></header>
+				{posts.length === 0 ? (
+					<div class="empty-state"><p>No CTF writeups yet.</p></div>
+				) : (
+					<ul class="thought-list">
+						{posts.map((post) => <li><time datetime={post.data.pubDate.toISOString()}><FormattedDate date={post.data.pubDate} /></time><a href={url(`/blog/${post.id}/`)}>{post.data.title}</a><p>{post.data.description}</p></li>)}
+					</ul>
+				)}
+			</div></main>
+			<Footer />
+		</div>
+	</body>
+</html>

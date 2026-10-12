@@ -40,7 +40,8 @@ collections:
           - { label: Resources, value: resources }
           - { label: Knowledge, value: knowledge }
           - { label: Thoughts, value: thoughts }
-        hint: 'Choose where this post appears: Resources, Knowledge, or Thoughts.'
+          - { label: CTF Writeup, value: ctf }
+        hint: 'Choose where this post appears: Resources, Knowledge, Thoughts, or CTF Writeup.'
       - { label: Publish date, name: pubDate, widget: datetime, format: 'MMM DD YYYY', date_format: 'MMM DD YYYY', time_format: false }
       - { label: Updated date, name: updatedDate, widget: datetime, required: false, format: 'MMM DD YYYY', date_format: 'MMM DD YYYY', time_format: false }
       - { label: Cover image, name: heroImage, widget: image, required: false }

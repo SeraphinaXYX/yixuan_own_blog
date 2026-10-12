@@ -1,7 +1,7 @@
 ---
 title: n0s4n1ty 1 writeup
 description: ctf题解1--web
-type: knowledge
+type: ctf
 pubDate: Oct 01 2026
 updatedDate: Oct 01 2026
 ---

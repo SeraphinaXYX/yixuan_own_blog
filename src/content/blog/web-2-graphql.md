@@ -1,7 +1,7 @@
 ---
 title: WEB-2-GraphQL
 description: ctf-poctf-web总结
-type: knowledge
+type: ctf
 pubDate: Oct 02 2026
 updatedDate: Oct 02 2026
 ---
